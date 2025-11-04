@@ -18,5 +18,5 @@ const libPath = (arch==="wasm-mt" ? "../lib-mt" : "../lib");
 if (!fs.existsSync(`${libPath}`)) {
     fs.mkdirSync(`${libPath}`, {recursive: true});
 }
-
+console.log("1");
 fs.copyFileSync(`../src/${arch}/libpag.wasm`, `${libPath}/libpag.wasm`);
