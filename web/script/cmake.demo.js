@@ -19,3 +19,4 @@ if (!fs.existsSync(`${libPath}`)) {
     fs.mkdirSync(`${libPath}`, {recursive: true});
 }
 fs.copyFileSync(`../src/${arch}/libpag.wasm`, `${libPath}/libpag.wasm`);
+console.log("1");
