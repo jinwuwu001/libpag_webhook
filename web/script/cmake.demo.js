@@ -20,3 +20,4 @@ if (!fs.existsSync(`${libPath}`)) {
 }
 fs.copyFileSync(`../src/${arch}/libpag.wasm`, `${libPath}/libpag.wasm`);
 console.log("1");
+console.log("2");
